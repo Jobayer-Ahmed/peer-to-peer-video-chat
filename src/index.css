@@ -1,0 +1,21 @@
+*:focus, *:active {
+	box-shadow: none !important;
+	border-color: transparent !important;
+}
+
+.hide {
+	display: none !important;
+}
+
+video {
+	position: absolute;
+	margin: auto;
+	right: 0;
+	left: 0;
+	/*transform: translate3d(50%, 50%, 0);*/
+}
+
+.video_track {
+	width: 100%;
+	position: relative;
+}
